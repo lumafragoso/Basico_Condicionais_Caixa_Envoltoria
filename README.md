@@ -11,7 +11,7 @@ If the point (x,y) is inside the box, inform that the point collides with the bo
 Muitos jogos digitais realizam testes de colisão entre elementos do jogos, tais como personagens, balas, muros, alvos, entre outros. Para simplicar os cálculos nos testes de colisão, vários jogos consideram a existência de uma caixa que envolve o personagem (daí o nome "caixa envoltória", do inglês bounding box). Se houver interseção entre as caixas de dois elementos do jogo, significa que um colidiu com o outro. A figura abaixo ilustra o caso de dois personagens, com suas respectivas caixas envoltórias, e a área de colisão em laranja. Mesmo que as imagens deles não se sobreponham, as caixas sim e, por isso, o jogo considera como uma colisão.
 Desenvolva um teste de colisão simples, envolvendo apenas uma caixa envoltória e um ponto. Escreva um programa que lê inicialmente do usuário quatro valores. Os dois primeiros são as coordenadas do canto superior esquerdo da caixa envoltória (Xesquerda,Ytopo) e os dois seguintes são a largura e altura da caixa, respectivamente. Em seguida, leia do usuário mais dois valores correspondentes às coordenadas do ponto (x,y) que você quer testar.
 Se o ponto (x,y) estiver dentro da caixa, informe que o ponto colide com a caixa, caso contrário que não colide. Para verificar visualmente se seu teste está correto, desenhe uma caixa e o ponto fornecidos pelo usuário, como exemplificado na figura abaixo.
-1. Exemple / Exemplo
+1. Example / Exemplo
 ```py
 
 esquerda: 0
